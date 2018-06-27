@@ -8,8 +8,8 @@ function frameIt(){
 function pressIt(){
   $("form"),on("keydown", 
     function(key){
-      if(key.which == 82){
-        alert("r was pressed")
+      if(key.which == 71){
+        alert("g was pressed")
       }
     }
   )
