@@ -6,7 +6,7 @@ function frameIt(){
  // $("img").on("load", ("tasty"))
 }
 function pressIt(){
-  $("form"),on("keydown", 
+  $("form").on("keydown", 
     function(key){
       if(key.which == 71){
         alert("g was pressed")
@@ -15,7 +15,7 @@ function pressIt(){
   )
 }
 function submitIt(){
-  $("form"),on("submit", 
+  $("form").on("submit", 
     alert("Your form is going to be submitted now.")
   )
 }
